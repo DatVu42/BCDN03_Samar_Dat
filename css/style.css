@@ -304,6 +304,27 @@ header {
     line-height: 1;
 }
 
+/* FEATURES */
+.features__content {
+    display: flex;
+}
+
+.features__left {
+    width: 50%;
+}
+
+.features__right {
+    width: 50%;
+}
+
+.features__item {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 
 
 
