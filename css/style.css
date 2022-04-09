@@ -309,13 +309,16 @@ header {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 0;
+    overflow: hidden;
 }
 
 .features__content {
     display: flex;
 }
 
-.features__left {
+.features__left,
+.features__right {
     width: 50%;
 }
 
@@ -336,6 +339,7 @@ header {
     padding: 20px;
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .features__bg::after {
@@ -348,7 +352,7 @@ header {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: all 2s;
+    transition: all 1s;
     border-radius: 10px;
 }
 
@@ -357,13 +361,11 @@ header {
 }
 
 .features__bg:hover i {
-    /* position: relative; */
     z-index: 1;
     color: white;
 }
 
 .features__bg:hover div {
-    /* position: relative; */
     z-index: 2;
     color: white;
 }
@@ -379,7 +381,6 @@ header {
 }
 
 .features__bg:hover h3 {
-    /* z-index: 1; */
     color: white;
 }
 
@@ -387,17 +388,15 @@ header {
     padding: 0 0 30px 50px;
 }
 
+.features__banner {
+    margin-right: -80px;
+}
+
 .features__banner img {
     max-width: 100%;
-}
-
-.features__right {
-    width: 50%;
-}
-
-.features__banner img {
     animation: move2 5s infinite;
 }
+
 
 /* PORTFOLIO */
 .portfolio {
