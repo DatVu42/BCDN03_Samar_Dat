@@ -232,9 +232,9 @@ header {
 }
 
 .about__img {
-    width: 50%;
+    width: 60%;
     position: absolute;
-    left: -13%;
+    left: -17%;
 }
 
 .about__img img {
