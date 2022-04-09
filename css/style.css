@@ -16,7 +16,7 @@ a {
 }
 
 .container {
-    width: 80%;
+    max-width: 1199px;
     margin: auto;
 }
 
@@ -125,12 +125,15 @@ header {
 
 .samCarousel__content {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.samCarousel__article {
+.samCarousel__left {
     width: 60%;
-    padding: 70px 50px 70px 0;
+}
+
+.samCarousel__right {
+    width: 40%;
 }
 
 .samCarousel__content p {
@@ -162,18 +165,14 @@ header {
     margin-top: 20px;
 }
 
-.samCarousel__right {
-    width: 40%;
-}
-
 .samCarousel__banner {
     width: 570px;
     margin-left: 50px;
-    overflow: hidden;
 }
 
 .samCarousel__banner img {
     width: 100%;
+    display: block;
 }
 
 /* SERVICES */
